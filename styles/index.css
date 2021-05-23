@@ -1,0 +1,73 @@
+html,
+body {
+    font-family: "Noto Sans", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.serif {
+    font-family: 'DM Serif Display', serif;
+}
+.graph{
+	height: 100vh;
+	z-index: 2;
+	background: #fff;
+}
+.slide-section{
+	margin-bottom: 30vh;
+	
+}
+.slides{
+	z-index: 0;
+}
+.slide{
+	height: 80vh;
+}
+.slide-section h2{
+	margin-bottom: 3em;
+	background: #fff;
+	z-index: 1;
+	padding-top: 2em;
+
+}
+.tip{
+	cursor: pointer;
+    padding: 0.2em 0.6em;
+    display: inline-block;
+    margin-right: 0.8em;
+    margin-bottom: 0.4em;
+    font-size: 0.8em;
+    transition: all 0.2s;
+    color:#a8acaf;
+
+}
+.tip:hover{
+	border-color:#000 !important;
+	color:#000;
+}
+.tip-divider{
+	font-size: 0.8em;
+	color:#cacdd0;
+	font-style: italic;
+}
+.tip-divider .divider{
+	height: 0;
+}
+.methods p{
+	font-size: 0.9em;
+	color:#666;
+}
+
+
+@media screen and (max-width: 768px) {
+	.slide-section h2{
+		margin-bottom: 0.5em;
+		top: 100vw;
+		padding-top: 0;
+	}
+}
+
+@media (orientation: portrait) {
+  .graph{
+  	height: 100vw;
+  }
+}

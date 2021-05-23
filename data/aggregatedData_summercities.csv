@@ -1,0 +1,25 @@
+"iso_3166_2_code","city","times","years","sub_region_2","sub_region_1","metro_area","census_fips_code","retail_and_recreation_percent_change_from_baseline","grocery_and_pharmacy_percent_change_from_baseline","parks_percent_change_from_baseline","transit_stations_percent_change_from_baseline","workplaces_percent_change_from_baseline","residential_percent_change_from_baseline"
+"BE-VAN","Antwerp",1,"1920",NA,NA,NA,NA,-47,-6,-6,-40,-27,13
+"BR-RJ","Rio de Janeiro",1,"2016",NA,NA,NA,NA,-28,7,-16,-22,-12,7
+"DE-BE","Berlin",1,"1936",NA,"Berlin",NA,NA,-62,-15,-36,-51,-42,16
+"DE-BY","Munich",1,"1972",NA,"Bavaria",NA,NA,-61,-17,-14,-52,-33,15
+"ES-B","Barcelona",1,"1992",NA,NA,NA,NA,-48,-6,-24,-37,-30,13
+"FR-75","Paris",2,"1900, 1924",NA,NA,NA,NA,-67,-20,-57,-41,-47,18
+"IT-RM","Roma",1,"1960","Metropolitan City of Rome",NA,NA,NA,-38,-8,-36,-48,-33,12
+"JP-13","Tokyo",1,"1964",NA,NA,NA,NA,-35,-7,-27,-42,-27,14
+"MX-CMX","Mexico City",1,"1968",NA,NA,NA,NA,-51,-14,-50,-49,-46,19
+NA,"Los Angeles",2,"1932, 1984",NA,NA,NA,6037,-39,-19,-31,-49,-43,16
+NA,"St. Louis",1,"1904",NA,NA,NA,29510,-33,-16,-30,-34,-33,12
+NA,"Sydney",1,"2000","Council of the City of Sydney",NA,NA,NA,-45,-35,-39,-51,-34,13
+NA,"Amsterdam",1,"1928","Government of Amsterdam",NA,NA,NA,-70,-21,-39,-67,-50,19
+NA,"Helsinki",1,"1952","Helsinki",NA,NA,NA,-29,-10,-17,-48,-34,14
+NA,"Melbourne",1,"1956","Melbourne City",NA,NA,NA,-55,-39,-45,-61,-46,16
+"IT-RM","Roma",1,"1960","Metropolitan City of Rome",NA,NA,NA,-38,-8,-36,-48,-33,12
+NA,"Montreal",1,"1976","Montreal",NA,NA,NA,-61,-26,-14,-64,-51,22
+NA,"Stockholm",2,"1912, 1956","Stockholm Municipality",NA,NA,NA,-41,-22,-22,-52,-46,16
+"DE-BY","Munich",1,"1972",NA,"Bavaria",NA,NA,-61,-17,-14,-52,-33,15
+"DE-BE","Berlin",1,"1936",NA,"Berlin",NA,NA,-62,-15,-36,-51,-42,16
+NA,"Athens",3,"1896, 1906, 2004",NA,"Decentralized Administration of Attica",NA,NA,-51,-3,13,-49,-32,12
+"GB-LND","London",3,"1908, 1948, 2012",NA,"Greater London",NA,NA,-64,-23,-2,-66,-58,24
+NA,"Moscow",1,"1980",NA,NA,"Moscow Metropolitan Area",NA,-31,-20,-33,-24,-29,7
+NA,"Seoul",1,"1988",NA,NA,"Seoul Metropolitan Area",NA,-24,4,-2,-17,-13,10

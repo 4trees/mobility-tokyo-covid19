@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta http-equiv="cache-control" content="max-age=0, no-cache, no-store, must-revalidate" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <title>Mobility impact of coping COVID-19 in Tokyo</title>
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display|Noto+Sans+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/bootstrap/bootstrap-5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+</head>
+<body>
+    <header></header>
+    <div class="container-fluid" id="container"></div>
+
+    <!-- Libraries -->
+    <script type="text/javascript" src="./lib/bootstrap/bootstrap-5.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./lib/d3.v5.js"></script>
+    <!-- Components -->
+    <script type="text/javascript" src="./js/flowerChart.js"></script>
+    <!-- lib  -->
+    <script type="text/javascript">
+    const container = d3.select('#container');
+
+    let w, h, isLandscape, isMobile, isSmallScreen;
+
+    getSizes();
+
+    function getSizes() {
+        w = window.innerWidth;
+        h = window.innerHeight;
+
+        isLandscape = w > h;
+        isMobile = (navigator.maxTouchPoints || 'ontouchstart' in document.documentElement);
+        isSmallScreen = document.body.clientWidth <= 768;
+
+    }
+    </script>
+    <!-- Data -->
+    <script type="text/javascript" src="./js/dataParse.js"></script>
+    <script type="text/javascript" src="./js/Launch.js"></script>
+</body>
+
+</html>
