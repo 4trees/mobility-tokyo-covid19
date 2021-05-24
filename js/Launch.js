@@ -23,6 +23,16 @@ const graphContainer = sectionContainer.append('div')
 const slidesContainer = sectionContainer.append('div').attr('class', 'slides col-12 col-md-8 col-lg-5');
 
 container.append('section')
+    .attr('class', 'row flex-column justify-content-center align-items-center my-5')
+    .html(`
+        <div class="col-12 col-md-8 col-lg-6 col-xxl-4">
+        <p>According to the terms of the contract between the International Olympic Committee(ICO) and the host city Tokyo, only the ICO has the option to cancel if there were “reasonable grounds” for the IOC to believe that “the safety of participants in the Games would be seriously threatened or jeopardized”. Cancellation of the games by Japan would mean breaking the contract and taking responsibility for all related losses and risks.</p>
+        <p>Although the epidemic has a huge impact worldwide, the mobility data shows that Japan is not one of the most severely affected countries. In addition, vaccination is rapidly carried out globally. This may make the ICO and the organizers feel that it is feasible for the Olympic Games to take place and at the same time ensure the safety and health of participants.</p>
+        <p>However, the specific anti-epidemic measures to take are currently unclear. There is little historical experience to refer to whether these measures are effective or not. The controversy and worries about personal and public safety and health may continue to revolve around the Tokyo Olympics.</p>
+        </div>
+        `);
+
+container.append('section')
     .attr('class', 'methods row flex-column justify-content-center align-items-center mb-5')
     .html(`
         <div class="col-12 col-md-8 col-lg-6 col-xxl-4 border-top">
@@ -101,14 +111,14 @@ Promise.all([Data_row, JData_row, summerData_row])
                         }
                     },
                     {
-                        html: '<p>Compared with other places in Japan, Tokyo has been affected the most.</p>',
+                        html: '<p>Compared with other places in Japan, Tokyo has been affected the most. This can also explain the domestic opposition to the Olympics. </p>',
                         tips: tipJCities,
                         action: () => {
                             chart.highlight('Tokyo').fix('Japan').data(nestedDataByJapanCity)()
                         }
                     },
                     {
-                        html: '<p>However, when compared to previous Olympics host cities around the world, people in Tokyo still live in ways closer to their pre-pandemic lives.</p>',
+                        html: `<p>However, when compared to previous Olympics host cities around the world, people in Tokyo still live in ways closer to their pre-pandemic lives. But this also indicates that the Japanese government's anti-epidemic measures are not as strong and effective as other cities.</p>`,
                         tips: tipOlyCities,
                         action: () => {
                             chart.highlight('Tokyo').fix(null).data(nestedDataBySummerCity)()
