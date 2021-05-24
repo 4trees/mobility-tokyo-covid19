@@ -1,9 +1,16 @@
 container.append('section')
-    .attr('class', 'row flex-column justify-content-center align-items-center mb-5')
+    .attr('class', 'row intro flex-column justify-content-center align-items-center mb-5')
     .html(`
+        <div class="col-12 col-md-8 col-lg-6 cover d-flex align-items-center justify-content-center">
+            <h1 class="my-5 d-flex flex-column serif">
+                <span>Mobility Impact</span>
+                <span class="fs-5 fw-light">of coping with COVID-19 in</span>
+                <span class="highlight-text">Tokyo</span>
+            </h1>
+        </div>
         <div class="col-12 col-md-8 col-lg-6 col-xxl-4 pb-5">
-        <h1 class="my-5 serif">Mobility impact of coping with COVID-19 in Tokyo</h1>
         <p>In the history of the modern Olympics, both the 1940 Summer and Winter Olympics that were to be hosted by Japan were canceled due to the onset of World War II. Tokyo and Sapporo eventually hosted the 1952 Summer and 1972 Winter Olympics respectively. Due to COVID-19, there have been mounting calls in Japan to cancel the 2020 Tokyo Summer Olympics which has already been postponed by a year.</p>
+        <img src='./imgs/japan-cases.png' class="w-100 mb-3"> 
         <p>As global communities combat COVID-19 with movement restrictions, each city shows different levels of changes in total mobility. In this landscape, it is interesting to focus on Japan and Tokyo and see the impact of coping with COVID-19 so far among growing anxiety and controversy about the upcoming Olympics.</p>
         <div class="tip-divider d-flex align-items-center mb-3 mt-5">
             <div class="divider flex-grow-1 border-top"></div>
@@ -36,8 +43,8 @@ container.append('section')
     .attr('class', 'methods row flex-column justify-content-center align-items-center mb-5')
     .html(`
         <div class="col-12 col-md-8 col-lg-6 col-xxl-4 border-top">
-        <h5 class="mt-5 mb-3 serif">Method</h5>
-        <p>The data is from Google Community Mobility Reports that show how visits and length of stay at different places change compared to a baseline. “Changes for each day are compared to a baseline value for that day of the week” and “the baseline is the median value, for the corresponding day of the week, during the five week period 3 Jan – 6 Feb 2020”. </p>
+        <h5 class="mt-5 mb-3 serif fs-6 fw-bold">Method</h5>
+        <p>The data is from Google Community Mobility Reports that show how visits and length of stay at different places change compared to a baseline. “Changes for each day are compared to a baseline value for that day of the week” and “the baseline is the median value, for the corresponding day of the week, during the five-week period 3 Jan – 6 Feb 2020”. </p>
         <p>In order to better compare, I took the median value from 3 Jan – 6 Feb 2021 for each country and city. </p>
         <p>I also left out countries that have missing values for any place categories. On the city level, “London” is presented by “Greater London” instead of “City of London” for this reason.</p>
         <p>Because the data is only available for regions with a certain size, cities such as “Sapporo”, "Yokohama” or “Nagoya” are represented by their prefectures respectively, which are “Hokkaido”, “Kanagawa” and “Aichi”. The city of “Munich” is represented by “Bavaria” for the same reason.</p>
@@ -83,7 +90,7 @@ Promise.all([Data_row, JData_row, summerData_row])
 
         const chart = flowerChart(graphContainer, nestedDataByCountry);
         const SlidesData = [{
-                title: 'The mobility changes in Japan',
+                title: 'The mobility changes in <span class="highlight-text">Japan</span>',
                 slides: [{
 
                         html: '<p>Compared with pre-pandemic norms, visits dropped by 23% to places like restaurants, cafes, shopping centers, theme parks, museums, libraries, and movie theaters, 24% to national parks, public beaches, marinas, dog parks, plazas, and public gardens.</p>',
@@ -102,7 +109,7 @@ Promise.all([Data_row, JData_row, summerData_row])
             },
 
             {
-                title: 'The mobility changes in Tokyo',
+                title: 'The mobility changes in <span class="highlight-text">Tokyo</span>',
                 slides: [{
 
                         html: `<p>However, mobility in Tokyo is more restricted compared to the nationwide average. This densely populated capital has confronted a significant drop of movements in all the aspects. People spend more time at home, with much fewer visits in retail, recreation, workplaces and transportation. </p>`,

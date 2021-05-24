@@ -183,7 +183,7 @@ const flowerChart = (_, alldata) => {
         let enterLabel = updateLabel.enter().append("text")
             .attr('class', 'label')
             .style('text-anchor', 'middle')
-            .style('font-size', 12)
+            .style('font-size', 12).style('font-weight', 'bold')
             .attr('transform', d => `translate(${d.x_o}, ${d.y_o})`)
             .text('0%').attr('filter', "url(#bg)");
 

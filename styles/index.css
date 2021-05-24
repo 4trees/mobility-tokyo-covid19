@@ -3,7 +3,28 @@ body {
     font-family: "Noto Sans", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 }
+h1{
+	line-height: 1.2em;
+	letter-spacing: 2px;
+}
 
+p{
+	background: #fff;
+}
+section.intro{
+	background-image: url("../imgs/cover-dec.png");
+    background-position: left top;
+    background-repeat: repeat-x;
+    background-size:33%;
+}
+.cover{
+	height: 60vh;
+    background-image: url("../imgs/japan-map.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 55vh auto;
+    background-attachment: fixed;
+}
 .serif {
     font-family: 'DM Serif Display', serif;
 }
@@ -28,6 +49,9 @@ body {
 	z-index: 1;
 	padding-top: 2em;
 
+}
+.highlight-text{
+	color:#ef1d20;
 }
 .tip{
 	cursor: pointer;
