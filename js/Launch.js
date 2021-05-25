@@ -93,7 +93,7 @@ Promise.all([Data_row, JData_row, summerData_row])
                 title: 'The mobility changes in <span class="highlight-text">Japan</span>',
                 slides: [{
 
-                        html: '<p>Compared with pre-pandemic norms, visits dropped by 23% to places like restaurants, cafes, shopping centers, theme parks, museums, libraries, and movie theaters, 24% to national parks, public beaches, marinas, dog parks, plazas, and public gardens.</p>',
+                        html: '<p>Compared with pre-pandemic norms, people in Japan stay home more and less outdoor. Particularly, visits dropped by 23% to places like restaurants, cafes, shopping centers, theme parks, museums, libraries, and movie theaters, 24% to national parks, public beaches, marinas, dog parks, plazas, and public gardens.</p>',
                         action: () => {
                             chart.highlight('Japan').fix(null).data(nestedDataByJapan)()
                         }
@@ -125,7 +125,7 @@ Promise.all([Data_row, JData_row, summerData_row])
                         }
                     },
                     {
-                        html: `<p>However, when compared to previous Olympics host cities around the world, people in Tokyo still live in ways closer to their pre-pandemic lives. But this also indicates that the Japanese government's anti-epidemic measures are not as strong and effective as other cities.</p>`,
+                        html: `<p>However, when compared to previous Olympics host cities around the world, people in Tokyo still live in ways closer to their pre-pandemic lives. This is understandable given that Japan had relatively less COVID-19 cases and thus less strong lockdown measures might have been deemed sufficient so far.</p>`,
                         tips: tipOlyCities,
                         action: () => {
                             chart.highlight('Tokyo').fix(null).data(nestedDataBySummerCity)()
