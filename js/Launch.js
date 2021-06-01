@@ -9,7 +9,7 @@ container.append('section')
             </h1>
         </div>
         <div class="col-12 col-md-8 col-lg-6 col-xxl-4 pb-5">
-        <p>In the history of the modern Olympics, both the 1940 Summer and Winter Olympics that were to be hosted by Japan were canceled due to the onset of World War II. Tokyo and Sapporo eventually hosted the 1952 Summer and 1972 Winter Olympics respectively. Due to COVID-19, there have been mounting calls in Japan to cancel the 2020 Tokyo Summer Olympics which has already been postponed by a year.</p>
+        <p>In the history of the modern Olympics, both the 1940 Summer and Winter Olympics that were to be hosted by Japan were canceled due to the onset of World War II. Tokyo and Sapporo eventually hosted the 1964 Summer and 1972 Winter Olympics respectively. Due to COVID-19, there have been mounting calls in Japan to cancel the 2020 Tokyo Summer Olympics which has already been postponed by a year.</p>
         <img src='./imgs/japan-cases.png' class="w-100 mb-3"> 
         <p>As global communities combat COVID-19 with movement restrictions, each city shows different levels of changes in total mobility. In this landscape, it is interesting to focus on Japan and Tokyo and see the impact of coping with COVID-19 so far among growing anxiety and controversy about the upcoming Olympics.</p>
         <div class="tip-divider d-flex align-items-center mb-3 mt-5">
